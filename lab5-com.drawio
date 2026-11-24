@@ -1,0 +1,33 @@
+<mxfile host="Electron" modified="2026-11-22T00:00:00.000Z" agent="Antigravity/4.0" version="24.0.0" type="device">
+  <diagram id="lab5_rf_link_budget" name="1. RF Link Budget Architecture">
+        <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1020" pageHeight="230" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="rf_title" value="&lt;div style=&quot;font-size:15px;font-weight:bold;color:#0F172A;&quot;&gt;MÔ HÌNH NGÂN SÁCH ĐƯỜNG TRUYỀN VÔ TUYẾN (RF LINK BUDGET) CUBESAT LEO&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="15" width="950" height="30" as="geometry"/>
+                </mxCell>                <mxCell id="b_tx" value="&lt;div style=&quot;font-weight:bold;font-size:13px;color:#1E3A8A;&quot;&gt;1. Máy Phát Vệ tinh&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;P_tx = +20 dBm (100mW)&lt;br&gt;Anten G_tx = +2 dBi&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1.5;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60" width="220" height="65" as="geometry"/>
+                </mxCell>                <mxCell id="b_space" value="&lt;div style=&quot;font-weight:bold;font-size:13px;color:#78350F;&quot;&gt;2. Không gian Tự do (1000 km)&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;FSPL = -145.2 dB &amp;bull; L_atm = -1.5 dB &amp;bull; L_pol = -3.0 dB&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1.5;fontColor=#78350F;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="60" width="360" height="65" as="geometry"/>
+                </mxCell>                <mxCell id="b_rx" value="&lt;div style=&quot;font-weight:bold;font-size:13px;color:#14532D;&quot;&gt;3. Trạm Thu Mặt Đất&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;Anten Yagi G_rx = +11.5 dBi&lt;br&gt;P_rx = -119 dBm &amp;bull; P_sens = -134 dBm&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#22C55E;strokeWidth=1.5;fontColor=#14532D;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="60" width="260" height="65" as="geometry"/>
+                </mxCell>                <mxCell id="b_res" value="&lt;div style=&quot;font-weight:bold;font-size:14px;color:#14532D;&quot;&gt;Biên độ Dự phòng: Link Margin = P_rx - P_sens = +15 dB (ĐẠT CHUẨN &gt; +10 dB)&lt;/div&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#EDFBF4;strokeColor=#16A34A;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=15;fontColor=#14532D;spacingTop=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="160" width="780" height="45" as="geometry"/>
+                </mxCell>                <mxCell id="e1" value="Sóng 433 MHz" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#78350F;" parent="1" source="b_tx" target="b_space" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e2" value="Tín hiệu viễn trắc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" source="b_space" target="b_rx" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" source="b_rx" target="b_res" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

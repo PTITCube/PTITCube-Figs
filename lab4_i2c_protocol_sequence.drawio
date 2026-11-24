@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="lab4_i2c_protocol_sequence" name="1. Giao thức Bus I2C">
+        <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="460" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="i2c_title" value="&lt;div style=&quot;font-size:15px;font-weight:bold;color:#0F172A;&quot;&gt;LƯU TRÌNH GIAO THỨC BUS I2C ĐỌC THANH GHI CẢM BIẾN&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="15" width="880" height="30" as="geometry"/>
+                </mxCell>                <mxCell id="ll_master" value="Master (ESP32)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;fontStyle=1;fontSize=13;fontColor=#1E3A8A;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="55" width="200" height="390" as="geometry"/>
+                </mxCell>                <mxCell id="ll_bus" value="Bus I2C (SDA / SCL)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontStyle=1;fontSize=13;fontColor=#78350F;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="55" width="190" height="390" as="geometry"/>
+                </mxCell>                <mxCell id="ll_slave" value="Slave (BMP280 / MPU6500)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#DCFCE7;strokeColor=#22C55E;strokeWidth=2;fontStyle=1;fontSize=13;fontColor=#14532D;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="55" width="210" height="390" as="geometry"/>
+                </mxCell>                <mxCell id="s1" value="1. START Condition" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="105" as="sourcePoint"/>
+                        <mxPoint x="435" y="105" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s2" value="2. Địa chỉ Slave + W (0)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="140" as="sourcePoint"/>
+                        <mxPoint x="715" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s3" value="3. ACK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="715" y="175" as="sourcePoint"/>
+                        <mxPoint x="160" y="175" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s4" value="4. Địa chỉ Thanh ghi" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="210" as="sourcePoint"/>
+                        <mxPoint x="715" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s5" value="5. ACK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="715" y="245" as="sourcePoint"/>
+                        <mxPoint x="160" y="245" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s6" value="6. REPEATED START" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#78350F;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="280" as="sourcePoint"/>
+                        <mxPoint x="435" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s7" value="7. Địa chỉ Slave + R (1)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="315" as="sourcePoint"/>
+                        <mxPoint x="715" y="315" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s8" value="8. Byte Dữ liệu Cảm biến" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="715" y="350" as="sourcePoint"/>
+                        <mxPoint x="160" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>                <mxCell id="s9" value="9. NACK &amp; STOP Condition" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#991B1B;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="385" as="sourcePoint"/>
+                        <mxPoint x="715" y="385" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

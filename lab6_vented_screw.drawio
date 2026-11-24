@@ -1,0 +1,27 @@
+<mxfile host="65bd71144e">
+    <diagram id="lab6_vented_screw" name="3. Bu lông Khoan Tâm Vented Screw">
+        <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="990" pageHeight="180" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vs_title" value="&lt;div style=&quot;font-size:15px;font-weight:bold;color:#0F172A;&quot;&gt;TRIỆT TIÊU RÒ RỈ ẢO (VIRTUAL LEAK) BẰNG BU LÔNG KHOAN TÂM&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="15" width="960" height="30" as="geometry"/>
+                </mxCell>                <mxCell id="blind" value="&lt;div style=&quot;font-weight:bold;color:#991B1B;&quot;&gt;Đáy Lỗ Ren Kín (Blind Hole)&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;Khí 1 atm bị kẹt lại&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1.5;fontColor=#991B1B;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="75" width="230" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="vent" value="&lt;div style=&quot;font-weight:bold;color:#1E3A8A;&quot;&gt;Bu lông Khoan Tâm (Vented Screw)&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;Lỗ thoát khí Ø 0.8 - 1.5 mm&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1.5;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="75" width="260" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="tvac" value="&lt;div style=&quot;font-weight:bold;color:#14532D;&quot;&gt;Chân không Siêu cao (TVAC / LEO)&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;Thoát khí tức thì, đạt 10⁻⁵ Pa&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#22C55E;strokeWidth=1.5;fontColor=#14532D;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="75" width="250" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="e1" value="Khí kẹt thoát dọc lỗ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" source="blind" target="vent" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e2" value="Xả tự do" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" source="vent" target="tvac" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

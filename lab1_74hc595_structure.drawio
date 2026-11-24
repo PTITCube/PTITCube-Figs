@@ -1,0 +1,33 @@
+<mxfile host="65bd71144e">
+    <diagram id="lab1_74hc595_structure" name="4. Cấu trúc Vi mạch 74HC595">
+        <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1020" pageHeight="300" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="cont_595" value="CẤU TRÚC VI MẠCH 74HC595 &amp; LED 7 ĐOẠN" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5EEF8;strokeColor=#9333EA;strokeWidth=2;verticalAlign=top;fontStyle=1;fontSize=15;fontColor=#3B0764;spacingTop=10;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="20" width="940" height="250" as="geometry"/>
+                </mxCell>                <mxCell id="b_shift" value="&lt;div style=&quot;font-weight:bold;color:#581C87;&quot;&gt;Thanh ghi Dịch 8-bit&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;DS (Data) &amp;bull; SHCP (Shift Clock)&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#A855F7;strokeWidth=1.5;fontColor=#581C87;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="70" width="240" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="b_latch" value="&lt;div style=&quot;font-weight:bold;color:#1E3A8A;&quot;&gt;Thanh ghi Chốt (Latch)&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;STCP (Latch Clock) &amp;bull; OE (Output Enable)&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1.5;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="70" width="260" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="b_out" value="&lt;div style=&quot;font-weight:bold;color:#14532D;&quot;&gt;8 Ngõ ra Song song&lt;/div&gt;&lt;div style=&quot;font-size:11px;&quot;&gt;Q0, Q1, Q2, Q3, Q4, Q5, Q6, Q7&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#22C55E;strokeWidth=1.5;fontColor=#14532D;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="70" width="260" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="b_seg" value="&lt;div style=&quot;font-weight:bold;font-size:13px;color:#991B1B;&quot;&gt;Đèn LED 7 Đoạn (Anot/Katot Chung)&lt;/div&gt;&lt;div style=&quot;font-size:12px;&quot;&gt;Q0➔A &amp;bull; Q1➔B &amp;bull; Q2➔C &amp;bull; Q3➔D &amp;bull; Q4➔E &amp;bull; Q5➔F &amp;bull; Q6➔G &amp;bull; Q7➔DP&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1.5;fontColor=#991B1B;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="165" width="880" height="55" as="geometry"/>
+                </mxCell>                <mxCell id="e1" value="Chuyển 8 bit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#1E293B;" parent="1" source="b_shift" target="b_latch" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e2" value="Xuất đồng thời" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" source="b_latch" target="b_out" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e3" value="Dòng điều khiển" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#991B1B;" parent="1" source="b_out" target="b_seg" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

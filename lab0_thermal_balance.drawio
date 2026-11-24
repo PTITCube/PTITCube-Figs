@@ -1,0 +1,39 @@
+<mxfile host="65bd71144e">
+    <diagram id="lab0_thermal_balance" name="5. Cân bằng Nhiệt Quỹ đạo LEO">
+        <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="300" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="tb_title" value="&lt;div style=&quot;font-size:15px;font-weight:bold;color:#0F172A;&quot;&gt;CÂN BẰNG NHIỆT CUBESAT 1U TRÊN QUỸ ĐẠO LEO&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="15" width="800" height="30" as="geometry"/>
+                </mxCell>                <mxCell id="sat_node" value="&lt;div style=&quot;font-size:16px;font-weight:bold;color:#0F172A;&quot;&gt;🛰️ CUBESAT 1U&lt;/div&gt;&lt;div style=&quot;font-size:13px;font-weight:bold;color:#2563EB;margin-top:4px;&quot;&gt;Q_in = Q_rad&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=2.5;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="120" width="180" height="90" as="geometry"/>
+                </mxCell>                <mxCell id="src_sun" value="☀️ Mặt Trời&lt;br&gt;&lt;b&gt;Q_solar = 1361 W/m²&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1.5;fontColor=#78350F;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="60" width="190" height="50" as="geometry"/>
+                </mxCell>                <mxCell id="src_earth" value="🌍 Trái Đất&lt;br&gt;&lt;b&gt;Albedo (0.3) + Hồng ngoại IR&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#22C55E;strokeWidth=1.5;fontColor=#14532D;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="140" width="190" height="50" as="geometry"/>
+                </mxCell>                <mxCell id="src_int" value="⚡ Nguồn Nội sinh&lt;br&gt;&lt;b&gt;Q_internal (Joule Heat)&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#A855F7;strokeWidth=1.5;fontColor=#581C87;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="220" width="190" height="50" as="geometry"/>
+                </mxCell>                <mxCell id="sink_space" value="🌌 Không Gian Sâu (2.7 K)&lt;br&gt;&lt;b&gt;Q_rad = ε · σ · A · T⁴&lt;/b&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#94A3B8;strokeWidth=1.5;fontColor=#334155;fontFamily=Helvetica;fontSize=12;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="135" width="210" height="60" as="geometry"/>
+                </mxCell>                <mxCell id="e_sun" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#78350F;" parent="1" source="src_sun" target="sat_node" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e_earth" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#14532D;" parent="1" source="src_earth" target="sat_node" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e_int" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9333EA;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#581C87;" parent="1" source="src_int" target="sat_node" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>                <mxCell id="e_space" value="Bức xạ Nhiệt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=11;fontColor=#334155;" parent="1" source="sat_node" target="sink_space" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
