@@ -1,0 +1,42 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab6_vented_screw" name="3. Vented Screw Design">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1660" pageHeight="520" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="vs_title" value="VIRTUAL LEAK MITIGATION WITH VENTED SCREWS" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="24" width="1580" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_blind" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#EF4444;strokeWidth=2;fontColor=#991B1B;fontStyle=1;fontFamily=Helvetica;fontSize=20;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="120" width="380" height="315" as="geometry"/>
+        </mxCell>
+        <mxCell id="blind" value="&lt;b&gt;Blind Hole&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Trapped Air (1 atm)&lt;/span&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTEwIj4KICAgIDwhLS0gTWV0YWwgYmxvY2sgLS0+CiAgICA8cGF0aCBkPSJNMTYsMTggSDQwIFY4NiBIODAgVjE4IEgxMDQgVjk4IEgxNiBaIiBmaWxsPSIjRTJFOEYwIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8IS0tIFRyYXBwZWQgZ2FzIHBvY2tldCAtLT4KICAgIDxlbGxpcHNlIGN4PSI2MCIgY3k9IjcyIiByeD0iMTUiIHJ5PSIxMSIgZmlsbD0iI0ZFQ0FDQSIgc3Ryb2tlPSIjREMyNjI2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1kYXNoYXJyYXk9IjMgMiIvPgogICAgPGNpcmNsZSBjeD0iNTMiIGN5PSI2MCIgcj0iNCIgZmlsbD0iI0VGNDQ0NCIvPjxjaXJjbGUgY3g9IjY3IiBjeT0iNTYiIHI9IjMiIGZpbGw9IiNFRjQ0NDQiLz48Y2lyY2xlIGN4PSI2MCIgY3k9IjQ1IiByPSIzLjUiIGZpbGw9IiNFRjQ0NDQiLz4KICA8L3N2Zz4=;" parent="1" vertex="1">
+          <mxGeometry x="180" y="150" width="160" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_vent" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="120" width="380" height="315" as="geometry"/>
+        </mxCell>
+        <mxCell id="vent" value="&lt;b&gt;Vented Screw&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Center Bore &amp;Oslash; 0.8–1.5 mm&lt;/span&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTEwIj4KICAgIDwhLS0gU2NyZXcgSGVhZCAmIFNoYWZ0IC0tPgogICAgPHJlY3QgeD0iMjYiIHk9IjE2IiB3aWR0aD0iNjgiIGhlaWdodD0iMjAiIHJ4PSI0IiBmaWxsPSIjOTRBM0I4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8cmVjdCB4PSI0MiIgeT0iMzYiIHdpZHRoPSIzNiIgaGVpZ2h0PSI1OCIgcng9IjMiIGZpbGw9IiNDQkQ1RTEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIDwhLS0gVGhyZWFkcyAtLT4KICAgIDxnIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgPGxpbmUgeDE9IjQwIiB5MT0iNDYiIHgyPSI4MCIgeTI9IjUwIi8+PGxpbmUgeDE9IjQwIiB5MT0iNTYiIHgyPSI4MCIgeTI9IjYwIi8+CiAgICAgIDxsaW5lIHgxPSI0MCIgeTE9IjY2IiB4Mj0iODAiIHkyPSI3MCIvPjxsaW5lIHgxPSI0MCIgeTE9Ijc2IiB4Mj0iODAiIHkyPSI4MCIvPgogICAgICA8bGluZSB4MT0iNDAiIHkxPSI4NiIgeDI9IjgwIiB5Mj0iOTAiLz4KICAgIDwvZz4KICAgIDwhLS0gQ2VudHJhbCBWZW50IEJvcmUgLS0+CiAgICA8cmVjdCB4PSI1NSIgeT0iMTYiIHdpZHRoPSIxMCIgaGVpZ2h0PSI3OCIgZmlsbD0iI0RDRkNFNyIgc3Ryb2tlPSIjMTZBMzRBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPCEtLSBHYXMgZXNjYXBlIGFycm93IHVwIC0tPgogICAgPGxpbmUgeDE9IjYwIiB5MT0iODgiIHgyPSI2MCIgeTI9IjYiIHN0cm9rZT0iIzE2QTM0QSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iNjAsMiA1MywxMyA2NywxMyIgZmlsbD0iIzE2QTM0QSIvPgogIDwvc3ZnPg==;" parent="1" vertex="1">
+          <mxGeometry x="750" y="150" width="160" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_tvac" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="120" width="380" height="315" as="geometry"/>
+        </mxCell>
+        <mxCell id="tvac" value="&lt;b&gt;LEO / TVAC Vacuum&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Outgassing (10⁻⁵ Pa)&lt;/span&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnNoYXBlX2ZpbGx7ZmlsbDojMTZBMzRBO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzaGFwZV9maWxsIiBkPSJNMjMzLTEwMHEtNTUuMSAwLTk0LjA1LTM4LjkzLTM4Ljk1LTM4LjkzLTM4Ljk1LTk0VDEzOC45My0zMjdxMzguOTMtMzkgOTQtMzlUMzI3LTMyNy4wNXEzOSAzOC45NSAzOSA5NC4wNSAwIDIyLTcgNDIuNVQzMzktMTUzdi0xN3EzMyAxNSA2OSAyMi41dDcyIDcuNXExNDIuMzggMCAyNDEuMTktOTguODFRODIwLTMzNy42MyA4MjAtNDgwaDYwcTAgODMtMzEuNSAxNTZUNzYzLTE5N3EtNTQgNTQtMTI3IDg1LjVUNDgwLTgwcS00Ni4zNyAwLTkwLjY5LTEwLjVRMzQ1LTEwMSAzMDMtMTIxcS0xNiAxMC41LTMzLjUgMTUuNzVUMjMzLTEwMFptNTEuNS04MS41UTMwNi0yMDMgMzA2LTIzM3QtMjEuNS01MS41UTI2My0zMDYgMjMzLTMwNnQtNTEuNSAyMS41UTE2MC0yNjMgMTYwLTIzM3QyMS41IDUxLjVRMjAzLTE2MCAyMzMtMTYwdDUxLjUtMjEuNVpNNDgwLjA3LTM0N1E0MjUtMzQ3IDM4Ni0zODUuOTNxLTM5LTM4LjkzLTM5LTk0VDM4NS45My01NzRxMzguOTMtMzkgOTQtMzlUNTc0LTU3NC4wN3EzOSAzOC45MyAzOSA5NFQ1NzQuMDctMzg2cS0zOC45MyAzOS05NCAzOVpNODAtNDgwcTAtODMgMzEuNS0xNTZUMTk3LTc2M3E1NC01NCAxMjctODUuNVQ0ODAtODgwcTQ2LjM3IDAgOTAuNjkgMTAuNVE2MTUtODU5IDY1Ny04MzlxMTYtMTAgMzMuNS0xNXQzNi41LTVxNTQuNjkgMCA5My4zNCAzOC43MlE4NTktNzgxLjU2IDg1OS03MjYuNzhUODIwLjI4LTYzM3EtMzguNzIgMzktOTMuNSAzOVQ2MzMtNjMyLjk1UTU5NC02NzEuOSA1OTQtNzI3cTAtMjIgNy00Mi41dDIwLTM3LjV2MTdxLTMzLTE1LTY5LTIyLjV0LTcyLTcuNXEtMTQyLjM3IDAtMjQxLjE5IDk4LjgxUTE0MC02MjIuMzggMTQwLTQ4MEg4MFptNjQ3LTE3NHEzMCAwIDUxLTIxLjV0MjEtNTEuNXEwLTMwLTIxLTUxdC01MS0yMXEtMzAgMC01MS41IDIxVDY1NC03MjdxMCAzMCAyMS4yOSA1MS41VDcyNy02NTRaTTIzMy0yMzNabTQ5NC00OTRaIi8+PC9zdmc+;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="160" width="150" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="Replace Bolt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="c_blind" target="c_vent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Free Exhaust" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="c_vent" target="c_tvac" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

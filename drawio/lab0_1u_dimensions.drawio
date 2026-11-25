@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab0_1u_dimensions" name="2. 1U Mechanical Specifications">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="700" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t_title" value="1U CUBESAT MECHANICAL SPECIFICATIONS" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="24" width="1480" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="box_cad" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=2;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="105" width="580" height="520" as="geometry"/>
+        </mxCell>
+        <mxCell id="sat_3d" value="1U Standard Envelope" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICAgIDwhLS0gQW50ZW5uYSAtLT4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjIyIiB4Mj0iNjAiIHkyPSI0IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjQiIHI9IjMiIGZpbGw9IiNFRjQ0NDQiLz4KICAgIDwhLS0gVG9wIGZhY2UgLS0+CiAgICA8cG9seWdvbiBwb2ludHM9IjYwLDE4IDEwMiwzOCA2MCw1OCAxOCwzOCIgZmlsbD0iI0RCRUFGRSIgc3Ryb2tlPSIjMUU0MEFGIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI2MCwyNCA5MCwzOCA2MCw1MiAzMCwzOCIgZmlsbD0iIzFENEVEOCIgb3BhY2l0eT0iMC44NSIvPgogICAgPCEtLSBMZWZ0IGZhY2UgKFNvbGFyIGFycmF5KSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTgsMzggNjAsNTggNjAsMTA0IDE4LDg0IiBmaWxsPSIjRUZGNkZGIiBzdHJva2U9IiMxRTQwQUYiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI0LDQ3IDU0LDYyIDU0LDk1IDI0LDgwIiBmaWxsPSIjMUUzQThBIi8+CiAgICA8bGluZSB4MT0iMjQiIHkxPSI2MyIgeDI9IjU0IiB5Mj0iNzgiIHN0cm9rZT0iIzYwQTVGQSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSIzOSIgeTE9IjU0IiB4Mj0iMzkiIHkyPSI4NyIgc3Ryb2tlPSIjNjBBNUZBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPCEtLSBSaWdodCBmYWNlIChTb2xhciBhcnJheSArIENhbWVyYSBsZW5zKSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTAyLDM4IDYwLDU4IDYwLDEwNCAxMDIsODQiIGZpbGw9IiNCRkRCRkUiIHN0cm9rZT0iIzFFNDBBRiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iNjYsNjIgOTYsNDcgOTYsODAgNjYsOTUiIGZpbGw9IiMyNTYzRUIiLz4KICAgIDxsaW5lIHgxPSI2NiIgeTE9Ijc4IiB4Mj0iOTYiIHkyPSI2MyIgc3Ryb2tlPSIjOTNDNUZEIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGxpbmUgeDE9IjgxIiB5MT0iNTQiIHgyPSI4MSIgeTI9Ijg3IiBzdHJva2U9IiM5M0M1RkQiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8IS0tIENvcm5lciBzdGFuZG9mZnMgLyByYWlscyBoaWdobGlnaHQgLS0+CiAgICA8bGluZSB4MT0iMTgiIHkxPSIzNSIgeDI9IjE4IiB5Mj0iODciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjU1IiB4Mj0iNjAiIHkyPSIxMDciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIxMDIiIHkxPSIzNSIgeDI9IjEwMiIgeTI9Ijg3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9zdmc+;fontSize=22;spacingTop=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="200" width="300" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="dim_w" value="100.0 ± 0.1 mm" style="html=1;strokeColor=#2563EB;strokeWidth=3;startArrow=block;endArrow=block;startFill=1;endFill=1;fontSize=19;fontStyle=1;fontColor=#1E3A8A;labelBackgroundColor=#F8FAFC;verticalAlign=bottom;spacingBottom=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="155" as="sourcePoint"/>
+            <mxPoint x="540" y="155" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dim_h" value="113.5 mm&lt;br&gt;(Rails)" style="html=1;strokeColor=#16A34A;strokeWidth=3;startArrow=block;endArrow=block;startFill=1;endFill=1;fontSize=18;fontStyle=1;fontColor=#14532D;labelBackgroundColor=#F8FAFC;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint"/>
+            <mxPoint x="140" y="500" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sp_body" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#1E3A8A;margin-bottom:6px;&quot;&gt;Body Envelope&lt;/div&gt;&lt;div style=&quot;font-size:19px;color:#0F172A;&quot;&gt;100 × 100 × 100 mm&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="680" y="110" width="380" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="sp_rails" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#145A32;margin-bottom:6px;&quot;&gt;4 Corner Rails&lt;/div&gt;&lt;div style=&quot;font-size:19px;color:#0F172A;&quot;&gt;L: 113.5 mm &amp;bull; W ≥ 8.5 mm&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="110" width="390" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="sp_mass" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#7D6608;margin-bottom:6px;&quot;&gt;Mass Budget&lt;/div&gt;&lt;div style=&quot;font-size:19px;color:#0F172A;&quot;&gt;≤ 1.33 kg (Max 2.0 kg)&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="680" y="295" width="380" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="sp_com" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#4A148C;margin-bottom:6px;&quot;&gt;Center of Mass&lt;/div&gt;&lt;div style=&quot;font-size:19px;color:#0F172A;&quot;&gt;Offset ≤ 20 mm&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F5EEF8;strokeColor=#A855F7;strokeWidth=2;fontColor=#4A148C;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="295" width="390" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="sp_mat" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#1E293B;&quot;&gt;Al 6061-T6 / 7075-T6 &amp;bull; Hard Anodize Type III &amp;amp; Alodine&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8EEF5;strokeColor=#8FA7B8;strokeWidth=2;fontColor=#1E293B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="680" y="485" width="810" height="130" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

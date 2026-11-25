@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab3_watchdog_fsm" name="3. Watchdog Timer FSM">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1720" pageHeight="760" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="wdt_title" value="WATCHDOG TIMER (WDT) STATE MACHINE" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="24" width="1640" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="wdt_start" value="" style="ellipse;fillColor=#0F172A;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="795" y="95" width="36" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_init" value="Init WDT&lt;br&gt;(Timeout = 5s)" style="rounded=1;arcSize=24;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#2563EB;strokeWidth=2.5;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="665" y="175" width="295" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_run" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="630" y="355" width="365" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_run_ic" value="" style="shape=image;html=1;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiPjxwYXRoIGZpbGw9IiMyNTYzRUIiIGQ9Ik0yMi44MyA0LjM3MmEyMC42NiAyMC42NiAwIDAgMC0xMy45NTMgNy41NzkgMjAuNjcgMjAuNjcgMCAwIDAtNC41MDggMTUuMjI3Yy42MDQgNS43MDMgMy40NSAxMC42MDQgNy41OCAxMy45NXM5LjUyIDUuMTEgMTUuMjIyIDQuNTFhMjAuNjggMjAuNjggMCAwIDAgMTMuOTU1LTcuNTgxIDIwLjY3IDIwLjY3IDAgMCAwIDQuNTA1LTE1LjIyNWMtLjYwOC01Ljc1LTMuNTI4LTEwLjY3LTcuNzI0LTE0LjA2NC0zLjUzLTIuODYtOC4wMzItNC41LTEyLjg1Ni00LjUtLjczMyAwLTEuNDc0LjAzOC0yLjIyMi4xMTYiLz48cGF0aCBmaWxsPSIjMzk5OWM2IiBkPSJNNDkuODYgMjIuMzg1Yy0uNzI4LTYuOTM3LTQuMjctMTIuODgzLTkuMjczLTE2LjkyOC0uOTctLjc4Ni0yLjAxOC0xLjQ3Mi0zLjEtMi4xbC0xLjk2MyAzLjc3N2MuODMuNDkzIDEuNjM2IDEuMDI0IDIuMzg1IDEuNjMyIDQuMTk2IDMuMzk1IDcuMTE2IDguMzEyIDcuNzIzIDE0LjA2My42MDIgNS43MDYtMS4xNjUgMTEuMDkzLTQuNTA0IDE1LjIyNi0zLjM1IDQuMTMtOC4yNSA2Ljk4LTEzLjk1NSA3LjU4LTMuODIuNC03LjQ5LS4yNzctMTAuNzQ0LTEuNzZsLTEuOTYgMy43NzRjMy45NzYgMS44NSA4LjQ4IDIuNzA4IDEzLjE1IDIuMjE0IDYuODYyLS43MiAxMi43OTYtNC4xNjQgMTYuODE0LTkuMTMzIDQuMDItNC45NjMgNi4xNTUtMTEuNDg3IDUuNDI3LTE4LjM0NSIvPjx1c2UgeGxpbms6aHJlZj0iI0IiIGZpbGw9IiNhMGExYTIiLz48dXNlIHhsaW5rOmhyZWY9IiNCIiBmaWxsPSIjNTliNGQ5Ii8+PGcgZmlsbD0iIzdhN2E3YSI+PHBhdGggZD0iTTM1LjQ5NyAzMS41NThsLTkuNi0zLjQxNGEyIDIgMCAwIDEtMS4yMTQtMi41NTQgMiAyIDAgMCAxIDIuNTU0LTEuMjE0bDkuNiAzLjQxNGEyIDIgMCAwIDEgMS4yMTQgMi41NTQgMiAyIDAgMCAxLTIuNTU0IDEuMjE0eiIvPjxwYXRoIGQ9Ik0yNC44IDI3Ljc3M2EyIDIgMCAwIDEtMi0yVjguNzU1YTIgMiAwIDEgMSA0IDB2MTcuMDE4YTIgMiAwIDAgMS0yIDJ6Ii8+PC9nPjxjaXJjbGUgZmlsbD0iIzFlMWUxZSIgY3g9IjI0LjgwMSIgY3k9IjI1Ljc3MyIgcj0iMi45MjEiLz48cGF0aCBkPSJNMjQuNDE4IDcuMDg3aDEuMTQ2djMuNTU2aC0xLjE0NnptMTIuNzMyIDQuOTNsLjguOC0yLjUxNCAyLjUxNC0uOC0uOHptMS45MDUgMTIuMzk4aDMuNTU2djEuMTQ3aC0zLjU1NnptLTMuNzcgMTAuMDU1bDIuNTE0IDIuNTE0LS44LjgtMi41MTQtMi41MTR6bS0xMC44NjYgNC41MjZoMS4xNDZ2My41NTZoLTEuMTQ2ek0xMi43MTYgMTEuOTAzbDIuNTE0IDIuNTE0LS44LjgtMi41MTQtMi41MTR6bTEuODc4IDIyLjY3bC44LjhMMTIuOSAzNy45bC0uOC0uOHpNNy4xNSAyNC40MTVoMy41NTd2MS4xNDdINy4xNXoiIGZpbGw9IiM3YTdhN2EiLz48ZGVmcyA+PHBhdGggaWQ9IkIiIGQ9Ik0xMS45NSA0MS4xMjdjLTQuMTMzLTMuMzQ2LTYuOTc4LTguMjQ3LTcuNTgtMTMuOTUtLjYtNS43MDggMS4xNjItMTEuMDk0IDQuNTA4LTE1LjIyOHM4LjI0Ni02Ljk3NyAxMy45NS03LjU3OGM0LjYxMy0uNDg0IDkuMDE2LjU3NCAxMi42OTQgMi43NmwxLjk2My0zLjc3NkMzMy4wNy43OTMgMjcuODI0LS40MyAyMi4zOC4xNDMgMTUuNTIyLjg2NSA5LjU4OCA0LjMxIDUuNTcgOS4yNzRsLS4wMDcuMDFBMjQuOTQgMjQuOTQgMCAwIDAgLjEzOSAyNy42MjFjLjcyMyA2Ljg2IDQuMTY0IDEyLjc5NiA5LjEzNSAxNi44MTUgMS41ODIgMS4yODIgMy4zMzUgMi4zNDYgNS4xOTQgMy4yMTJsMS45Ni0zLjc3NGMtMS42MDMtLjczLTMuMTE0LTEuNjQzLTQuNDc4LTIuNzQ3Ii8+PC9kZWZzPjwvc3ZnPg==;pointerEvents=0;" parent="st_run" vertex="1">
+          <mxGeometry x="18" y="30" width="56" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_run_txt" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#0F172A;&quot;&gt;Normal Running&lt;/div&gt;&lt;div style=&quot;font-size:18px;&quot;&gt;Countdown 5s &amp;rarr; 0s&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fillColor=none;strokeColor=none;fontFamily=Helvetica;pointerEvents=0;" parent="st_run" vertex="1">
+          <mxGeometry x="88" y="8" width="263" height="99" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_feed" value="Feed WDT&lt;br&gt;(Reload 5s)" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="110" y="355" width="260" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_to" value="Timeout (0s)&lt;br&gt;Task Hung" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#EF4444;strokeWidth=2;fontColor=#991B1B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="355" width="270" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_rst" value="Hardware Reset&lt;br&gt;Enter Safe Mode" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="575" width="270" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="wdt_start" target="st_init" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Start" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="st_init" target="st_run" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Healthy" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" source="st_run" target="st_feed" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="Reset Timer" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.75;entryX=0;entryY=0.75;" parent="1" source="st_feed" target="st_run" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="Hang &amp;gt; 5s" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#991B1B;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="st_run" target="st_to" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="WDT IRQ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#991B1B;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="st_to" target="st_rst" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="Reboot" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" parent="1" source="st_rst" target="st_init" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1615" y="630"/><mxPoint x="1615" y="220"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

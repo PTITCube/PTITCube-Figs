@@ -1,0 +1,41 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab4_nmea_parsing_flow" name="6. NMEA 0183 Parsing Flow">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="520" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="nm_title" value="NMEA 0183 SENTENCE PARSING &amp;amp; CHECKSUM VERIFICATION" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="22" width="1720" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="nm_raw" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#1E3A8A;margin-bottom:8px;&quot;&gt;Raw NMEA Sentence&lt;/div&gt;&lt;div style=&quot;font-size:16px;font-family:Courier New;color:#0F172A;&quot;&gt;$GPRMC,083559,A,...*76&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="60" y="165" width="360" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="nm_xor" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#991B1B;margin-bottom:8px;&quot;&gt;XOR Checksum&lt;/div&gt;&lt;div style=&quot;font-size:17px;font-weight:normal;&quot;&gt;Verify bytes between $ &amp;amp; *&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#EF4444;strokeWidth=2;fontColor=#991B1B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="530" y="165" width="340" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="nm_fsm" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#92400E;margin-bottom:8px;&quot;&gt;Stream FSM Parser&lt;/div&gt;&lt;div style=&quot;font-size:17px;font-weight:normal;&quot;&gt;Zero-Heap Byte Decode&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="980" y="165" width="340" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="nm_out" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#145A32;margin-bottom:8px;&quot;&gt;Decimal Degrees&lt;/div&gt;&lt;div style=&quot;font-size:17px;font-weight:normal;&quot;&gt;deg + min / 60.0 (WGS-84)&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="165" width="310" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="ASCII" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="nm_raw" target="nm_xor" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="Valid" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="nm_xor" target="nm_fsm" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Convert" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#9A3412;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="nm_fsm" target="nm_out" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

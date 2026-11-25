@@ -1,0 +1,95 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab4_i2c_protocol_sequence" name="1. I2C Protocol Sequence">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="960" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="i2c_title" value="I2C REGISTER READ PROTOCOL SEQUENCE" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1520" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="ic_m" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTAwIj4KICAgIDwhLS0gUENCIC0tPgogICAgPHJlY3QgeD0iMTQiIHk9IjEwIiB3aWR0aD0iOTIiIGhlaWdodD0iODAiIHJ4PSI4IiBmaWxsPSIjMUUyOTNCIiBzdHJva2U9IiMwRjE3MkEiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPCEtLSBQQ0IgTWVhbmRlciBBbnRlbm5hIC0tPgogICAgPHBhdGggZD0iTTIyLDIyIGgxNCB2LTYgaDYgdjEyIGg2IHYtMTIgaDYgdjYgaDEyIiBmaWxsPSJub25lIiBzdHJva2U9IiNGNTlFMEIiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDwhLS0gUkYgTWV0YWwgU2hpZWxkIENhbiAtLT4KICAgIDxyZWN0IHg9IjI2IiB5PSIzNCIgd2lkdGg9IjY4IiBoZWlnaHQ9IjQ0IiByeD0iNCIgZmlsbD0iI0NCRDVFMSIgc3Ryb2tlPSIjNjQ3NDhCIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxyZWN0IHg9IjM0IiB5PSI0MiIgd2lkdGg9IjUyIiBoZWlnaHQ9IjI4IiByeD0iMiIgZmlsbD0iIzk0QTNCOCIgb3BhY2l0eT0iMC41Ii8+CiAgICA8dGV4dCB4PSI2MCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJIZWx2ZXRpY2EsQXJpYWwiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMEYxNzJBIj5FU1AzMjwvdGV4dD4KICAgIDwhLS0gR29sZCBwaW5zIHRvcCAmIGJvdHRvbSAtLT4KICAgIDxnIGZpbGw9IiNGQkJGMjQiPgogICAgICA8Y2lyY2xlIGN4PSIyNCIgY3k9IjE0IiByPSIyLjUiLz48Y2lyY2xlIGN4PSIzNCIgY3k9IjE0IiByPSIyLjUiLz48Y2lyY2xlIGN4PSI0NCIgY3k9IjE0IiByPSIyLjUiLz48Y2lyY2xlIGN4PSI1NCIgY3k9IjE0IiByPSIyLjUiLz4KICAgICAgPGNpcmNsZSBjeD0iNjQiIGN5PSIxNCIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iNzQiIGN5PSIxNCIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iODQiIGN5PSIxNCIgcj0iMi41Ii8+PGNpcmNsZSBjeD0iOTQiIGN5PSIxNCIgcj0iMi41Ii8+CiAgICAgIDxjaXJjbGUgY3g9IjI0IiBjeT0iODYiIHI9IjIuNSIvPjxjaXJjbGUgY3g9IjM0IiBjeT0iODYiIHI9IjIuNSIvPjxjaXJjbGUgY3g9IjQ0IiBjeT0iODYiIHI9IjIuNSIvPjxjaXJjbGUgY3g9IjU0IiBjeT0iODYiIHI9IjIuNSIvPgogICAgICA8Y2lyY2xlIGN4PSI2NCIgY3k9Ijg2IiByPSIyLjUiLz48Y2lyY2xlIGN4PSI3NCIgY3k9Ijg2IiByPSIyLjUiLz48Y2lyY2xlIGN4PSI4NCIgY3k9Ijg2IiByPSIyLjUiLz48Y2lyY2xlIGN4PSI5NCIgY3k9Ijg2IiByPSIyLjUiLz4KICAgIDwvZz4KICA8L3N2Zz4=;" parent="1" vertex="1">
+          <mxGeometry x="180" y="82" width="84" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="ic_b" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxnIHN0cm9rZT0iIzY0NzQ4QiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICA8bGluZSB4MT0iMTIiIHkxPSIzMCIgeDI9IjI2IiB5Mj0iMzAiLz48bGluZSB4MT0iMTIiIHkxPSI0MyIgeDI9IjI2IiB5Mj0iNDMiLz4KICAgICAgPGxpbmUgeDE9IjEyIiB5MT0iNTciIHgyPSIyNiIgeTI9IjU3Ii8+PGxpbmUgeDE9IjEyIiB5MT0iNzAiIHgyPSIyNiIgeTI9IjcwIi8+CiAgICAgIDxsaW5lIHgxPSI3NCIgeTE9IjMwIiB4Mj0iODgiIHkyPSIzMCIvPjxsaW5lIHgxPSI3NCIgeTE9IjQzIiB4Mj0iODgiIHkyPSI0MyIvPgogICAgICA8bGluZSB4MT0iNzQiIHkxPSI1NyIgeDI9Ijg4IiB5Mj0iNTciLz48bGluZSB4MT0iNzQiIHkxPSI3MCIgeDI9Ijg4IiB5Mj0iNzAiLz4KICAgIDwvZz4KICAgIDxyZWN0IHg9IjI0IiB5PSIyMCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjYwIiByeD0iNiIgZmlsbD0iIzMzNDE1NSIgc3Ryb2tlPSIjMEYxNzJBIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPGNpcmNsZSBjeD0iMzMiIGN5PSIyOSIgcj0iMy41IiBmaWxsPSIjOTRBM0I4Ii8+CiAgICA8cmVjdCB4PSIzNCIgeT0iMzgiIHdpZHRoPSIzMiIgaGVpZ2h0PSIyNCIgcng9IjMiIGZpbGw9IiM0NzU1NjkiLz4KICA8L3N2Zz4=;" parent="1" vertex="1">
+          <mxGeometry x="755" y="82" width="70" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="ic_s" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjEwIiBmaWxsPSIjMUUyOTNCIi8+CiAgICA8IS0tIFogYXhpcyAtLT4KICAgIDxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iNTAiIHkyPSIxMiIgc3Ryb2tlPSIjMjU2M0VCIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI1MCw2IDQ0LDE4IDU2LDE4IiBmaWxsPSIjMjU2M0VCIi8+CiAgICA8IS0tIFggYXhpcyAtLT4KICAgIDxsaW5lIHgxPSI1MCIgeTE9IjUwIiB4Mj0iODQiIHkyPSI3MCIgc3Ryb2tlPSIjREMyNjI2IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI5MCw3NCA3Niw3MyA4Miw2MiIgZmlsbD0iI0RDMjYyNiIvPgogICAgPCEtLSBZIGF4aXMgLS0+CiAgICA8bGluZSB4MT0iNTAiIHkxPSI1MCIgeDI9IjE2IiB5Mj0iNzAiIHN0cm9rZT0iIzE2QTM0QSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTAsNzQgMjQsNzMgMTgsNjIiIGZpbGw9IiMxNkEzNEEiLz4KICAgIDwhLS0gQXJjIC0tPgogICAgPGVsbGlwc2UgY3g9IjUwIiBjeT0iNTAiIHJ4PSIzMiIgcnk9IjEyIiBmaWxsPSJub25lIiBzdHJva2U9IiNGNTlFMEIiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtZGFzaGFycmF5PSI0IDMiLz4KICA8L3N2Zz4=;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="82" width="74" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_master" value="Master (ESP32)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fillColor=#E8F1FC;strokeColor=#2563EB;strokeWidth=2.5;fontStyle=1;fontSize=20;fontColor=#0F172A;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="100" y="165" width="240" height="745" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_bus" value="I2C Bus (SDA / SCL)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fillColor=#FEF9E7;strokeColor=#D97706;strokeWidth=2.5;fontStyle=1;fontSize=20;fontColor=#78350F;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="665" y="165" width="250" height="745" as="geometry"/>
+        </mxCell>
+        <mxCell id="ll_slave" value="Sensor Slave" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fillColor=#EAFAF1;strokeColor=#16A34A;strokeWidth=2.5;fontStyle=1;fontSize=20;fontColor=#145A32;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="165" width="240" height="745" as="geometry"/>
+        </mxCell>
+        <mxCell id="s1" value="1. START Condition" style="html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#0F172A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="265" as="sourcePoint"/>
+            <mxPoint x="790" y="265" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2" value="2. Slave Addr + W (0)" style="html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#0F172A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="335" as="sourcePoint"/>
+            <mxPoint x="1360" y="335" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3" value="3. ACK" style="html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="405" as="sourcePoint"/>
+            <mxPoint x="220" y="405" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s4" value="4. Register Address" style="html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#0F172A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="475" as="sourcePoint"/>
+            <mxPoint x="1360" y="475" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s5" value="5. ACK" style="html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="545" as="sourcePoint"/>
+            <mxPoint x="220" y="545" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6" value="6. REPEATED START" style="html=1;strokeColor=#D97706;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#9A3412;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="615" as="sourcePoint"/>
+            <mxPoint x="790" y="615" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s7" value="7. Slave Addr + R (1)" style="html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#0F172A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="685" as="sourcePoint"/>
+            <mxPoint x="1360" y="685" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s8" value="8. Sensor Data Bytes" style="html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="755" as="sourcePoint"/>
+            <mxPoint x="220" y="755" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9" value="9. NACK &amp;amp; STOP" style="html=1;strokeColor=#DC2626;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;verticalAlign=bottom;spacingBottom=6;fontColor=#991B1B;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="825" as="sourcePoint"/>
+            <mxPoint x="790" y="825" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

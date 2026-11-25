@@ -1,0 +1,47 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab6_surface_treatment" name="2. Surface Treatment &amp; Anodizing">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1720" pageHeight="560" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="st_title" value="ALUMINUM SURFACE TREATMENT: ANODIZE VS ALODINE" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="24" width="1640" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="raw" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8EEF5;strokeColor=#8FA7B8;strokeWidth=2;fontColor=#1E293B;fontStyle=1;fontFamily=Helvetica;fontSize=20;container=1;collapsible=0;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="220" width="300" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="raw_ic" value="" style="shape=image;html=1;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTAgMTEwIj4KICAgIDxwb2x5Z29uIHBvaW50cz0iNTUsMTQgOTQsMzQgNTUsNTQgMTYsMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjE2LDM0IDU1LDU0IDU1LDk2IDE2LDc2IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI5NCwzNCA1NSw1NCA1NSw5NiA5NCw3NiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNDc1NTY5IiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIxNiIgeTE9IjM0IiB4Mj0iNTUiIHkyPSI3NiIgc3Ryb2tlPSIjOTRBM0I4IiBzdHJva2Utd2lkdGg9IjMiLz4KICAgIDxsaW5lIHgxPSI5NCIgeTE9IjM0IiB4Mj0iNTUiIHkyPSI3NiIgc3Ryb2tlPSIjOTRBM0I4IiBzdHJva2Utd2lkdGg9IjMiLz4KICA8L3N2Zz4=;pointerEvents=0;" parent="raw" vertex="1">
+          <mxGeometry x="18" y="31" width="64" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="raw_txt" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#1E293B;&quot;&gt;CNC Stock&lt;/div&gt;&lt;div style=&quot;font-size:18px;&quot;&gt;Al 6061-T6&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fillColor=none;strokeColor=none;fontFamily=Helvetica;pointerEvents=0;" parent="raw" vertex="1">
+          <mxGeometry x="96" y="8" width="190" height="109" as="geometry"/>
+        </mxCell>
+        <mxCell id="mask" value="Selective Masking" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="490" y="220" width="270" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_ano" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#991B1B;margin-bottom:6px;&quot;&gt;Hard Anodize Type III&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;&quot;&gt;Insulating Oxide &amp;bull; 25–50 &amp;mu;m&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#EF4444;strokeWidth=2;fontColor=#991B1B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="125" width="620" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="b_alo" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#145A32;margin-bottom:6px;&quot;&gt;Alodine 5541&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;&quot;&gt;Conductive Grounding &amp;bull; R &amp;lt; 0.1 &amp;Omega;&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="325" width="620" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="Prepare" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="raw" target="mask" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="External Rails" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#991B1B;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" parent="1" source="mask" target="b_ano" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Internal Faces" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" parent="1" source="mask" target="b_alo" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,65 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab8_project_lifecycle" name="1. Space Project Lifecycle">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1860" pageHeight="400" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="lc_title" value="SPACE MISSION PROJECT LIFECYCLE (NASA / ESA)" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="24" width="1780" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="ph_0" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#1E293B;margin-bottom:6px;&quot;&gt;Pre-Phase A&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;Concept Studies&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8EEF5;strokeColor=#8FA7B8;strokeWidth=2;fontColor=#1E293B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="45" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ph_0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="ph_0" target="ph_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph_1" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#1E3A8A;margin-bottom:6px;&quot;&gt;Phase A&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;Concept (SRR)&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="305" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ph_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="ph_1" target="ph_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph_2" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#145A32;margin-bottom:6px;&quot;&gt;Phase B&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;Prelim Design (PDR)&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="565" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ph_2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="ph_2" target="ph_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph_3" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#7D6608;margin-bottom:6px;&quot;&gt;Phase C&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;Final Design (CDR)&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="825" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ph_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="ph_3" target="ph_4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph_4" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#4A148C;margin-bottom:6px;&quot;&gt;Phase D&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;AIT &amp;amp; Launch&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F5EEF8;strokeColor=#A855F7;strokeWidth=2;fontColor=#4A148C;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ph_4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="ph_4" target="ph_5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph_5" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#1E3A8A;margin-bottom:6px;&quot;&gt;Phase E&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;Orbit Operations&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1345" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_ph_5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="ph_5" target="ph_6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ph_6" value="&lt;div style=&quot;font-size:21px;font-weight:bold;color:#991B1B;margin-bottom:6px;&quot;&gt;Phase F&lt;/div&gt;&lt;div style=&quot;font-size:18px;font-weight:normal;color:#1E293B;&quot;&gt;Deorbit / Disposal&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#EF4444;strokeWidth=2;fontColor=#991B1B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1605" y="130" width="215" height="175" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

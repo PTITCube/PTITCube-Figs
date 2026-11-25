@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab7_mission_fsm" name="2. Flight Mission FSM">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1780" pageHeight="960" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="fsm_title" value="FLIGHT MISSION FINITE STATE MACHINE (FSM)" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="22" width="1700" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="fsm_start" value="" style="ellipse;fillColor=#0F172A;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="872" y="95" width="36" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_boot" value="&lt;b&gt;STATE_BOOT&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;30-min RF Silence&lt;/span&gt;" style="rounded=1;arcSize=24;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#2563EB;strokeWidth=2.5;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="730" y="175" width="320" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_detumble" value="&lt;b&gt;STATE_DETUMBLE&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Deploy &amp;amp; B-Dot&lt;/span&gt;" style="rounded=1;arcSize=24;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#2563EB;strokeWidth=2.5;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="730" y="325" width="320" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_normal" value="&lt;b&gt;STATE_NORMAL_OPS&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Beacon &amp;amp; Telemetry&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E8F1FC;strokeColor=#60A5FA;strokeWidth=2;fontColor=#0F172A;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="730" y="485" width="320" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_psave" value="&lt;b&gt;STATE_POWER_SAVE&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Shed Secondary Loads&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="80" y="485" width="330" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_payload" value="&lt;b&gt;STATE_PAYLOAD_EXEC&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Camera &amp;amp; SD Capture&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F5EEF8;strokeColor=#A855F7;strokeWidth=2;fontColor=#4A148C;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="485" width="330" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="st_safe" value="&lt;b&gt;STATE_SAFE_MODE&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight:normal;font-size:18px;&quot;&gt;Minimum Survival Power&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFF1F2;strokeColor=#EF4444;strokeWidth=2;fontColor=#991B1B;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="730" y="775" width="320" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="Power On" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="fsm_start" target="st_boot" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="30 min" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="st_boot" target="st_detumble" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" value="Rate &amp;lt; 5°/s" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="st_detumble" target="st_normal" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="Capture (SOC &amp;gt; 60%)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9333EA;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#581C87;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.25;entryX=0;entryY=0.25;" parent="1" source="st_normal" target="st_payload" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" value="Done" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2563EB;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#1E3A8A;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0;exitY=0.75;entryX=1;entryY=0.75;" parent="1" source="st_payload" target="st_normal" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" value="V_bat &amp;lt; 3.55V" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#D97706;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#9A3412;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0;exitY=0.25;entryX=1;entryY=0.25;" parent="1" source="st_normal" target="st_psave" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" value="V_bat &amp;gt; 3.90V" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=1;exitY=0.75;entryX=0;entryY=0.75;" parent="1" source="st_psave" target="st_normal" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" value="System Fault" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#991B1B;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.25;exitY=1;entryX=0.25;entryY=0;" parent="1" source="st_normal" target="st_safe" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="CMD_RECOVER" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#16A34A;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#14532D;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.75;exitY=0;entryX=0.75;entryY=1;" parent="1" source="st_safe" target="st_normal" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" value="V_bat &amp;lt; 3.40V (Critical)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DC2626;strokeWidth=2.5;endArrow=block;endFill=1;endSize=8;fontColor=#991B1B;fontFamily=Helvetica;fontSize=17;fontStyle=1;labelBackgroundColor=#FFFFFF;defaultLabelBackgroundColor=page;spacing=6;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="st_psave" target="st_safe" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="245" y="830"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,95 @@
+<mxfile host="65bd71144e">
+  <diagram id="lab7_leo_orbit_pass" name="3. LEO 95-Min Orbital Cycle">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="760" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="orb_title" value="95-MINUTE LEO ORBITAL CYCLE &amp;amp; GROUND STATION PASS" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=26;fontStyle=1;fontColor=#0F172A;letterSpacing=0.5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="22" width="1720" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="shadow_zone" value="" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=none;opacity=65;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="900" y="100" width="530" height="595" as="geometry"/>
+        </mxCell>
+        <mxCell id="orbit_ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3B82F6;strokeWidth=3.5;dashed=1;dashPattern=8 6;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="125" width="880" height="540" as="geometry"/>
+        </mxCell>
+        <mxCell id="earth_globe" value="" style="shape=image;html=1;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNjAgMjYwIj4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iZ2xvYmVDbGlwIj48Y2lyY2xlIGN4PSIxMzAiIGN5PSIxMzAiIHI9IjExMiIvPjwvY2xpcFBhdGg+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Im9jZWFuR3JhZCIgY3g9IjM1JSIgY3k9IjM1JSIgcj0iNzAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM4QkRGOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iIzAyODRDNyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMzY5QTEiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gQXRtb3NwaGVyaWMgSGFsbyAtLT4KICA8Y2lyY2xlIGN4PSIxMzAiIGN5PSIxMzAiIHI9IjEyMiIgZmlsbD0iI0UwRjJGRSIgb3BhY2l0eT0iMC42NSIvPgogIDwhLS0gT2NlYW4gU3BoZXJlIC0tPgogIDxjaXJjbGUgY3g9IjEzMCIgY3k9IjEzMCIgcj0iMTEyIiBmaWxsPSJ1cmwoI29jZWFuR3JhZCkiIHN0cm9rZT0iIzAyODRDNyIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICA8IS0tIENvbnRpbmVudHMgKGNsaXBwZWQgdG8gZ2xvYmUpIC0tPgogIDxnIGNsaXAtcGF0aD0idXJsKCNnbG9iZUNsaXApIj4KICAgIDxwYXRoIGQ9Ik01NSw2NSBRODUsNTUgMTA1LDc4IFExMjUsOTUgMTAyLDEyNSBRNzgsMTM4IDYyLDExNSBRNDIsOTUgNTUsNjUgWiIgZmlsbD0iIzIyQzU1RSIgb3BhY2l0eT0iMC45Ii8+CiAgICA8cGF0aCBkPSJNOTAsMTQ1IFExMTgsMTQyIDEyOCwxNjggUTEzNCwxOTUgMTA4LDIxNSBRODYsMjA1IDg0LDE3NSBaIiBmaWxsPSIjMTZBMzRBIiBvcGFjaXR5PSIwLjkiLz4KICAgIDxwYXRoIGQ9Ik0xNDgsNzIgUTE4OCw2MCAyMTIsODggUTIyOCwxMTggMTk4LDEzNiBRMTY1LDE0MiAxNTIsMTE2IFExMzgsOTQgMTQ4LDcyIFoiIGZpbGw9IiMyMkM1NUUiIG9wYWNpdHk9IjAuODgiLz4KICAgIDxwYXRoIGQ9Ik0xNjgsMTUwIFEyMDAsMTQ4IDIxNCwxNzggUTIwNCwyMDggMTc2LDIwNCBRMTU0LDE4NSAxNjgsMTUwIFoiIGZpbGw9IiMxNkEzNEEiIG9wYWNpdHk9IjAuODgiLz4KICAgIDwhLS0gTmlnaHQgLyBFY2xpcHNlIFNoYWRvdyBIYWxmIG9uIFJpZ2h0IC0tPgogICAgPHBhdGggZD0iTTEzMCwxOCBBMTEyLDExMiAwIDAsMSAxMzAsMjQyIFExNTIsMTMwIDEzMCwxOCBaIiBmaWxsPSIjMEYxNzJBIiBvcGFjaXR5PSIwLjU4Ii8+CiAgPC9nPgogIDxjaXJjbGUgY3g9IjEzMCIgY3k9IjEzMCIgcj0iMTEyIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMzY5QTEiIHN0cm9rZS13aWR0aD0iMi41Ii8+Cjwvc3ZnPg==;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="295" width="260" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="earth_lbl" value="&lt;b&gt;Earth&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:15px;font-weight:normal;color:#475569;&quot;&gt;LEO ~500 km&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=top;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=19;fontColor=#0F172A;" parent="1" vertex="1">
+          <mxGeometry x="820" y="560" width="160" height="48" as="geometry"/>
+        </mxCell>
+        <mxCell id="sun_src" value="&lt;b&gt;Solar Flux&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:16px;font-weight:normal;&quot;&gt;1361 W/m²&lt;/span&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjI0IiBmaWxsPSIjRkJCRjI0IiBzdHJva2U9IiNEOTc3MDYiIHN0cm9rZS13aWR0aD0iMyIvPgogICAgPGcgc3Ryb2tlPSIjRjU5RTBCIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgICAgPGxpbmUgeDE9IjUwIiB5MT0iMTAiIHgyPSI1MCIgeTI9IjIwIi8+PGxpbmUgeDE9IjUwIiB5MT0iODAiIHgyPSI1MCIgeTI9IjkwIi8+CiAgICAgIDxsaW5lIHgxPSIxMCIgeTE9IjUwIiB4Mj0iMjAiIHkyPSI1MCIvPjxsaW5lIHgxPSI4MCIgeTE9IjUwIiB4Mj0iOTAiIHkyPSI1MCIvPgogICAgICA8bGluZSB4MT0iMjIiIHkxPSIyMiIgeDI9IjI5IiB5Mj0iMjkiLz48bGluZSB4MT0iNzEiIHkxPSI3MSIgeDI9Ijc4IiB5Mj0iNzgiLz4KICAgICAgPGxpbmUgeDE9Ijc4IiB5MT0iMjIiIHgyPSI3MSIgeTI9IjI5Ii8+PGxpbmUgeDE9IjI5IiB5MT0iNzEiIHgyPSIyMiIgeTI9Ijc4Ii8+CiAgICA8L2c+CiAgPC9zdmc+;fontSize=19;fontColor=#92400E;" parent="1" vertex="1">
+          <mxGeometry x="90" y="325" width="130" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_sun1" value="" style="strokeColor=#F59E0B;strokeWidth=3;endArrow=block;endFill=1;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="355" as="sourcePoint"/>
+            <mxPoint x="365" y="355" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sun2" value="" style="strokeColor=#F59E0B;strokeWidth=3;endArrow=block;endFill=1;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="425" as="sourcePoint"/>
+            <mxPoint x="365" y="425" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sat_sun" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICAgIDwhLS0gQW50ZW5uYSAtLT4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjIyIiB4Mj0iNjAiIHkyPSI0IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjQiIHI9IjMiIGZpbGw9IiNFRjQ0NDQiLz4KICAgIDwhLS0gVG9wIGZhY2UgLS0+CiAgICA8cG9seWdvbiBwb2ludHM9IjYwLDE4IDEwMiwzOCA2MCw1OCAxOCwzOCIgZmlsbD0iI0RCRUFGRSIgc3Ryb2tlPSIjMUU0MEFGIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI2MCwyNCA5MCwzOCA2MCw1MiAzMCwzOCIgZmlsbD0iIzFENEVEOCIgb3BhY2l0eT0iMC44NSIvPgogICAgPCEtLSBMZWZ0IGZhY2UgKFNvbGFyIGFycmF5KSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTgsMzggNjAsNTggNjAsMTA0IDE4LDg0IiBmaWxsPSIjRUZGNkZGIiBzdHJva2U9IiMxRTQwQUYiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI0LDQ3IDU0LDYyIDU0LDk1IDI0LDgwIiBmaWxsPSIjMUUzQThBIi8+CiAgICA8bGluZSB4MT0iMjQiIHkxPSI2MyIgeDI9IjU0IiB5Mj0iNzgiIHN0cm9rZT0iIzYwQTVGQSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSIzOSIgeTE9IjU0IiB4Mj0iMzkiIHkyPSI4NyIgc3Ryb2tlPSIjNjBBNUZBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPCEtLSBSaWdodCBmYWNlIChTb2xhciBhcnJheSArIENhbWVyYSBsZW5zKSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTAyLDM4IDYwLDU4IDYwLDEwNCAxMDIsODQiIGZpbGw9IiNCRkRCRkUiIHN0cm9rZT0iIzFFNDBBRiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iNjYsNjIgOTYsNDcgOTYsODAgNjYsOTUiIGZpbGw9IiMyNTYzRUIiLz4KICAgIDxsaW5lIHgxPSI2NiIgeTE9Ijc4IiB4Mj0iOTYiIHkyPSI2MyIgc3Ryb2tlPSIjOTNDNUZEIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGxpbmUgeDE9IjgxIiB5MT0iNTQiIHgyPSI4MSIgeTI9Ijg3IiBzdHJva2U9IiM5M0M1RkQiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8IS0tIENvcm5lciBzdGFuZG9mZnMgLyByYWlscyBoaWdobGlnaHQgLS0+CiAgICA8bGluZSB4MT0iMTgiIHkxPSIzNSIgeDI9IjE4IiB5Mj0iODciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjU1IiB4Mj0iNjAiIHkyPSIxMDciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIxMDIiIHkxPSIzNSIgeDI9IjEwMiIgeTI9Ijg3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9zdmc+;" parent="1" vertex="1">
+          <mxGeometry x="415" y="345" width="92" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="card_sun" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#92400E;margin-bottom:4px;&quot;&gt;Sunlight (~60 min)&lt;/div&gt;&lt;div style=&quot;font-size:16px;font-weight:normal;color:#334155;&quot;&gt;Solar Charge &amp;bull; Payload Ops&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FEF9E7;strokeColor=#F1C40F;strokeWidth=2;fontColor=#7D6608;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="95" y="145" width="305" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_lbl_sun" value="" style="strokeColor=#D97706;strokeWidth=2.5;dashed=1;endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="250" as="sourcePoint"/>
+            <mxPoint x="445" y="342" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gs_on_earth" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICAgIDwhLS0gQmFzZSBidWlsZGluZyAtLT4KICAgIDxyZWN0IHg9IjIwIiB5PSI5NiIgd2lkdGg9IjgwIiBoZWlnaHQ9IjEwIiByeD0iMiIgZmlsbD0iIzk0QTNCOCIgc3Ryb2tlPSIjMUUyOTNCIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDxyZWN0IHg9IjQ0IiB5PSI3MCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjI2IiBmaWxsPSIjRTJFOEYwIiBzdHJva2U9IiMxRTI5M0IiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPCEtLSBEaXNoIGFybSAtLT4KICAgIDxyZWN0IHg9IjU1IiB5PSI1NCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE2IiBmaWxsPSIjNjQ3NDhCIiBzdHJva2U9IiMxRTI5M0IiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPCEtLSBQYXJhYm9saWMgRGlzaCB0aWx0ZWQgdXAtbGVmdCAtLT4KICAgIDxwYXRoIGQ9Ik0yNiwyMiBRMzQsNzQgODIsNTggWiIgZmlsbD0iI0RCRUFGRSIgc3Ryb2tlPSIjMUUyOTNCIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPGxpbmUgeDE9IjQ4IiB5MT0iNDUiIHgyPSI2NiIgeTI9IjI0IiBzdHJva2U9IiMxRTI5M0IiIHN0cm9rZS13aWR0aD0iMi41Ii8+CiAgICA8Y2lyY2xlIGN4PSI2NiIgY3k9IjI0IiByPSI0IiBmaWxsPSIjRUY0NDQ0Ii8+CiAgICA8IS0tIFJGIGFyY3MgLS0+CiAgICA8cGF0aCBkPSJNNzQsMTYgQTE0LDE0IDAgMCwxIDgyLDI2IiBmaWxsPSJub25lIiBzdHJva2U9IiMyNTYzRUIiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxwYXRoIGQ9Ik04MCwxMCBBMjIsMjIgMCAwLDEgOTAsMjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI1NjNFQiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDwvc3ZnPg==;" parent="1" vertex="1">
+          <mxGeometry x="855" y="240" width="88" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="sat_pass" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICAgIDwhLS0gQW50ZW5uYSAtLT4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjIyIiB4Mj0iNjAiIHkyPSI0IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjQiIHI9IjMiIGZpbGw9IiNFRjQ0NDQiLz4KICAgIDwhLS0gVG9wIGZhY2UgLS0+CiAgICA8cG9seWdvbiBwb2ludHM9IjYwLDE4IDEwMiwzOCA2MCw1OCAxOCwzOCIgZmlsbD0iI0RCRUFGRSIgc3Ryb2tlPSIjMUU0MEFGIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI2MCwyNCA5MCwzOCA2MCw1MiAzMCwzOCIgZmlsbD0iIzFENEVEOCIgb3BhY2l0eT0iMC44NSIvPgogICAgPCEtLSBMZWZ0IGZhY2UgKFNvbGFyIGFycmF5KSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTgsMzggNjAsNTggNjAsMTA0IDE4LDg0IiBmaWxsPSIjRUZGNkZGIiBzdHJva2U9IiMxRTQwQUYiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI0LDQ3IDU0LDYyIDU0LDk1IDI0LDgwIiBmaWxsPSIjMUUzQThBIi8+CiAgICA8bGluZSB4MT0iMjQiIHkxPSI2MyIgeDI9IjU0IiB5Mj0iNzgiIHN0cm9rZT0iIzYwQTVGQSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSIzOSIgeTE9IjU0IiB4Mj0iMzkiIHkyPSI4NyIgc3Ryb2tlPSIjNjBBNUZBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPCEtLSBSaWdodCBmYWNlIChTb2xhciBhcnJheSArIENhbWVyYSBsZW5zKSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTAyLDM4IDYwLDU4IDYwLDEwNCAxMDIsODQiIGZpbGw9IiNCRkRCRkUiIHN0cm9rZT0iIzFFNDBBRiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iNjYsNjIgOTYsNDcgOTYsODAgNjYsOTUiIGZpbGw9IiMyNTYzRUIiLz4KICAgIDxsaW5lIHgxPSI2NiIgeTE9Ijc4IiB4Mj0iOTYiIHkyPSI2MyIgc3Ryb2tlPSIjOTNDNUZEIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGxpbmUgeDE9IjgxIiB5MT0iNTQiIHgyPSI4MSIgeTI9Ijg3IiBzdHJva2U9IiM5M0M1RkQiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8IS0tIENvcm5lciBzdGFuZG9mZnMgLyByYWlscyBoaWdobGlnaHQgLS0+CiAgICA8bGluZSB4MT0iMTgiIHkxPSIzNSIgeDI9IjE4IiB5Mj0iODciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjU1IiB4Mj0iNjAiIHkyPSIxMDciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIxMDIiIHkxPSIzNSIgeDI9IjEwMiIgeTI9Ijg3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9zdmc+;" parent="1" vertex="1">
+          <mxGeometry x="856" y="82" width="86" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_pass_rf" value="" style="strokeColor=#16A34A;strokeWidth=3.5;startArrow=block;endArrow=block;startFill=1;endFill=1;startSize=7;endSize=7;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="172" as="sourcePoint"/>
+            <mxPoint x="900" y="238" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="card_pass" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#145A32;margin-bottom:4px;&quot;&gt;Ground Pass (~10 min)&lt;/div&gt;&lt;div style=&quot;font-size:16px;font-weight:normal;color:#334155;&quot;&gt;Beacon &amp;amp; Telecommand&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EAFAF1;strokeColor=#52BE80;strokeWidth=2;fontColor=#145A32;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="125" width="305" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_lbl_pass" value="" style="strokeColor=#16A34A;strokeWidth=2.5;dashed=1;endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="195" as="sourcePoint"/>
+            <mxPoint x="920" y="205" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sat_ecl" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;fontFamily=Helvetica;fontSize=20;fontStyle=1;fontColor=#0F172A;spacingTop=8;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj4KICAgIDwhLS0gQW50ZW5uYSAtLT4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjIyIiB4Mj0iNjAiIHkyPSI0IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjQiIHI9IjMiIGZpbGw9IiNFRjQ0NDQiLz4KICAgIDwhLS0gVG9wIGZhY2UgLS0+CiAgICA8cG9seWdvbiBwb2ludHM9IjYwLDE4IDEwMiwzOCA2MCw1OCAxOCwzOCIgZmlsbD0iI0RCRUFGRSIgc3Ryb2tlPSIjMUU0MEFGIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSI2MCwyNCA5MCwzOCA2MCw1MiAzMCwzOCIgZmlsbD0iIzFENEVEOCIgb3BhY2l0eT0iMC44NSIvPgogICAgPCEtLSBMZWZ0IGZhY2UgKFNvbGFyIGFycmF5KSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTgsMzggNjAsNTggNjAsMTA0IDE4LDg0IiBmaWxsPSIjRUZGNkZGIiBzdHJva2U9IiMxRTQwQUYiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjI0LDQ3IDU0LDYyIDU0LDk1IDI0LDgwIiBmaWxsPSIjMUUzQThBIi8+CiAgICA8bGluZSB4MT0iMjQiIHkxPSI2MyIgeDI9IjU0IiB5Mj0iNzgiIHN0cm9rZT0iIzYwQTVGQSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSIzOSIgeTE9IjU0IiB4Mj0iMzkiIHkyPSI4NyIgc3Ryb2tlPSIjNjBBNUZBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPCEtLSBSaWdodCBmYWNlIChTb2xhciBhcnJheSArIENhbWVyYSBsZW5zKSAtLT4KICAgIDxwb2x5Z29uIHBvaW50cz0iMTAyLDM4IDYwLDU4IDYwLDEwNCAxMDIsODQiIGZpbGw9IiNCRkRCRkUiIHN0cm9rZT0iIzFFNDBBRiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iNjYsNjIgOTYsNDcgOTYsODAgNjYsOTUiIGZpbGw9IiMyNTYzRUIiLz4KICAgIDxsaW5lIHgxPSI2NiIgeTE9Ijc4IiB4Mj0iOTYiIHkyPSI2MyIgc3Ryb2tlPSIjOTNDNUZEIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogICAgPGxpbmUgeDE9IjgxIiB5MT0iNTQiIHgyPSI4MSIgeTI9Ijg3IiBzdHJva2U9IiM5M0M1RkQiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgICA8IS0tIENvcm5lciBzdGFuZG9mZnMgLyByYWlscyBoaWdobGlnaHQgLS0+CiAgICA8bGluZSB4MT0iMTgiIHkxPSIzNSIgeDI9IjE4IiB5Mj0iODciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSI2MCIgeTE9IjU1IiB4Mj0iNjAiIHkyPSIxMDciIHN0cm9rZT0iIzQ3NTU2OSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxsaW5lIHgxPSIxMDIiIHkxPSIzNSIgeDI9IjEwMiIgeTI9Ijg3IiBzdHJva2U9IiM0NzU1NjkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPC9zdmc+;" parent="1" vertex="1">
+          <mxGeometry x="1295" y="345" width="92" height="92" as="geometry"/>
+        </mxCell>
+        <mxCell id="card_ecl" value="&lt;div style=&quot;font-size:20px;font-weight:bold;color:#581C87;margin-bottom:4px;&quot;&gt;Eclipse (~35 min)&lt;/div&gt;&lt;div style=&quot;font-size:16px;font-weight:normal;color:#334155;&quot;&gt;Battery Discharge &amp;bull; Power Save&lt;/div&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F5EEF8;strokeColor=#A855F7;strokeWidth=2;fontColor=#4A148C;fontStyle=1;fontFamily=Helvetica;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1445" y="340" width="305" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_lbl_ecl" value="" style="strokeColor=#9333EA;strokeWidth=2.5;dashed=1;endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1445" y="392" as="sourcePoint"/>
+            <mxPoint x="1392" y="392" as="targetPoint"/>
+            
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orb_period" value="&lt;b&gt;95-min Orbital Period&lt;/b&gt; &amp;nbsp;&amp;bull;&amp;nbsp; Velocity: 7.6 km/s &amp;nbsp;&amp;bull;&amp;nbsp; ~15 Orbits / Day" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#3B82F6;strokeWidth=2;fontFamily=Helvetica;fontSize=18;fontColor=#1E3A8A;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="680" width="680" height="46" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
